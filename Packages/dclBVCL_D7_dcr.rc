@@ -1,0 +1,8 @@
+TBigEdit               Bitmap  ..\Icons\BigEdit.bmp
+TBigNumEdit            Bitmap  ..\Icons\BigNumEdit.bmp
+TBigLabel              Bitmap  ..\Icons\BigLabel.bmp
+TBigSubtitleLabel      Bitmap  ..\Icons\BigSubtitleLabel.bmp
+TBigFontDialog         Bitmap  ..\Icons\BigFontDialog.bmp
+TBigClipboardMonitor   Bitmap  ..\Icons\BigClipboardMonitor.bmp
+TBigButton             Bitmap  ..\Icons\BigButton.bmp
+TBigImageList          Bitmap  ..\Icons\BigImageList.bmp

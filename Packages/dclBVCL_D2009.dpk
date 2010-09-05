@@ -1,0 +1,56 @@
+package dclBVCL_D2009;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'GolezTrol Big VCL'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  designide,
+  vclactnband,
+  vclx;
+
+contains
+  BigClipboardMonitor in '..\Source\BigClipboardMonitor.pas',
+  BigClipboardViewer in '..\Source\BigClipboardViewer.pas',
+  BigClipbrd in '..\Source\BigClipbrd.pas',
+  BigClipRes in '..\Source\BigClipRes.pas',
+  BigDialogs in '..\Source\BigDialogs.pas',
+  BigEdit in '..\Source\BigEdit.pas',
+  BigFileSearch in '..\Source\BigFileSearch.pas',
+  BigIntegerList in '..\Source\BigIntegerList.pas',
+  BigLabel in '..\Source\BigLabel.pas',
+  BigOfflineClipboard in '..\Source\BigOfflineClipboard.pas',
+  BigStartButton in '..\Source\BigStartButton.pas',
+  BigStrUtils in '..\Source\BigStrUtils.pas',
+  BigRegister in '..\Source\BigRegister.pas',
+  BigNumEdit in '..\Source\BigNumEdit.pas',
+  BigSubtitleLabel in '..\Source\BigSubtitleLabel.pas',
+  BigButton in '..\Source\BigButton.pas',
+  BigMiniGames in '..\Source\BigMiniGames.pas',
+  BigRatingControl in '..\Source\BigRatingControl.pas';
+
+end.
